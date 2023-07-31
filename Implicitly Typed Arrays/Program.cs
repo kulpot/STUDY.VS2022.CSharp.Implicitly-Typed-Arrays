@@ -7,7 +7,7 @@ class Base { }
 class Derived1 : Base { }
 class Derived2 : Base { }
 class Cow
-{
+{   //convertion operator
     public static implicit operator Derived1(Cow cow)
     {
         return null;
